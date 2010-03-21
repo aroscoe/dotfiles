@@ -1,0 +1,7 @@
+*.db
+*.pyc
+.svn/
+.DS_Store
+local_settings.py
+pip-log.txt
+TAGS
