@@ -7,6 +7,7 @@
 	ci = commit
 	co = checkout
 	st = status
+	log1 = log --oneline
 [color]
     ui = auto
 [color "branch"]
