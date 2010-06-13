@@ -10,7 +10,7 @@ export PS1="\[\033[38m\]\h\[\033[01;34m\] \w \[\033[31m\]\`ruby -e \"print (%x{g
 export WORKON_HOME=$HOME/.virtualenvs
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
-source $PY/virtualenvwrapper_bashrc
+source $PY/virtualenvwrapper.sh
 
 # Helpers
 alias ap2='sudo /opt/local/apache2/bin/apachectl'
