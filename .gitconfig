@@ -1,31 +1,32 @@
 [core]
-	excludesfile = /Users/aroscoe/.gitignore
+  excludesfile = /Users/aroscoe/.gitignore
+  autocrlf = input
 [user]
-	name = Anthony Roscoe
-	email = me@anthonyroscoe.com
+  name = Anthony Roscoe
+  email = me@anthonyroscoe.com
 [alias]
-	ci = commit
-	co = checkout
-	st = status
-	log1 = log --oneline
+  ci = commit
+  co = checkout
+  st = status
+  log1 = log --oneline
 [color]
-    ui = auto
+  ui = auto
 [color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
+  current = yellow reverse
+  local = yellow
+  remote = green
 [color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
 [color "status"]
-	added = yellow
-	changed = green
-	untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
 [push]
-    default = current
+  default = current
 [mergetool]
-    tool = opendiff
+  tool = opendiff
 [github]
-	user = aroscoe
+  user = aroscoe
