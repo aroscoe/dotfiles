@@ -8,3 +8,4 @@ for i in *; do
 ln -s `pwd`/$i $HOME/$i
 done
 rm $HOME/symlink_files.sh
+rm -rf $HOME/.git
