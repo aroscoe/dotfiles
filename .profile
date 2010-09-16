@@ -26,6 +26,11 @@ if [ -f /opt/local/etc/bash_completion ]; then
     . /opt/local/etc/bash_completion
 fi
 
+# Custom Bash Aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
 # Resty 
 if [ -f /usr/local/bin/resty ]; then
     . resty
