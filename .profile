@@ -6,6 +6,12 @@ export PY=/opt/local/Library/Frameworks/Python.framework/Versions/Current/bin
 export PATH=$PY:/opt/local/bin:/opt/local/sbin:$PATH
 export PS1="\[\033[38m\]\h\[\033[01;34m\] \w \[\033[31m\]\`ruby -e \"print (%x{git branch 2> /dev/null}.grep(/^\*/).first || '').gsub(/^\* (.+)$/, '(\1) ')\"\`\[\033[37m\]$\[\033[00m\] "
 
+# Bash History
+export HISTSIZE=2500
+export HISTFILESIZE=10000
+export HISTCONTROL=ignoreboth
+shopt -s histappend
+
 # Virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
