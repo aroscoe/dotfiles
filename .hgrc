@@ -1,0 +1,4 @@
+[ui]
+username = Anthony Roscoe <me@anthonyroscoe.com>
+ssh = ssh -C
+ignore = ~/.hgignore
