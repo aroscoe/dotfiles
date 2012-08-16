@@ -15,12 +15,14 @@ export WORKON_HOME=$HOME/virtual_envs
 source virtualenvwrapper.sh
 
 # Helpers
+alias ap2='sudo apachectl'
 alias mysqlstart='mysql.server start'
 alias mysqlstop='mysql.server stop'
 alias edit='open -a /Applications/Emacs.app'
 alias grep='grep --color=auto' # Always highlight grep search term
 alias pypath='python -c "import sys; print sys.path" | tr "," "\n" | grep -v "egg"'
 alias pycclean='find . -name "*.pyc" -exec rm {} \;'
+alias getip='ifconfig | grep "inet " | grep -v "inet 127.0.0.1" | cut -f 2 -d " "'
 
 # Bash Completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
