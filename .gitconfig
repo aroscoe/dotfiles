@@ -28,5 +28,5 @@
   default = current
 [mergetool]
   tool = opendiff
-[github]
-  user = aroscoe
+[credential]
+  helper = osxkeychain
