@@ -1,8 +1,9 @@
+source ~/.git-prompt.sh
+
 # Enviroment
 export CLICOLOR=1;
 export EDITOR='emacs'
-export CVS_RSH='ssh'
-export PS1="\[\033[38m\]\h\[\033[01;34m\] \w \[\033[31m\]\`ruby -e \"print (%x{git branch 2> /dev/null}.grep(/^\*/).first || '').gsub(/^\* (.+)$/, '(\1) ')\"\`\[\033[37m\]$\[\033[00m\] "
+export PS1="\[\033[38m\]\h\[\033[01;34m\] \w \[\033[31m\]\$(__git_ps1)\[\033[37m\]$\[\033[00m\] "
 
 # Bash History
 export HISTSIZE=2500
