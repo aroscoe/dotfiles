@@ -19,6 +19,7 @@ source virtualenvwrapper.sh
 alias ap2='sudo apachectl'
 alias mysqlstart='mysql.server start'
 alias mysqlstop='mysql.server stop'
+alias mysqlconnect="mysql -uroot -p"
 alias edit='open -a /Applications/Emacs.app'
 alias grep='grep --color=auto' # Always highlight grep search term
 alias pypath='python -c "import sys; print sys.path" | tr "," "\n" | grep -v "egg"'
