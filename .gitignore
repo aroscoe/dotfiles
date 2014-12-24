@@ -1,6 +1,12 @@
+### Misc ###
 *~
 .svn/
 TAGS
+
+# Framer
+.temp.html
+framer/app.manifest
+framer/backup.coffee
 
 ### Python ###
 *.pyc
